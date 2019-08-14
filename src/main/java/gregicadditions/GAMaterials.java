@@ -99,10 +99,10 @@ public class GAMaterials {
         ZPMSuperconductorBase.setCableProperties(131072, 4, 2);
         Ultima.setCableProperties(524288, 3, 2);
 
-        Materials.NiobiumTitanium.setFluidPipeProperties(450, 2900, true);
-        Enderium.setFluidPipeProperties(650, 1500, true);
-        Materials.Naquadah.setFluidPipeProperties(1000, 19000, true);
-        Neutronium.setFluidPipeProperties(2800, 1000000, true);
+        Materials.NiobiumTitanium.setFluidPipeProperties(1800, 2900, true);
+        Enderium.setFluidPipeProperties(2600, 1500, true);
+        Materials.Naquadah.setFluidPipeProperties(4000, 19000, true);
+        Neutronium.setFluidPipeProperties(11200, 1000000, true);
 
         Materials.Diatomite.addFlag(DustMaterial.MatFlags.GENERATE_ORE);
         Materials.GarnetSand.addFlag(DustMaterial.MatFlags.GENERATE_ORE);

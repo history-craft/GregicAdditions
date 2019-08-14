@@ -181,11 +181,6 @@ public class GAMachineRecipeRemoval {
         ModHandler.removeFurnaceSmelting(MetaItems.COMPRESSED_FIRECLAY.getStackForm());
         ModHandler.removeFurnaceSmelting(MetaItems.COMPRESSED_CLAY.getStackForm());
 
-        //Remove Simple Superconductor recipe
-        removeRecipesByInputs(RecipeMaps.ASSEMBLER_RECIPES, new ItemStack[]{OreDictUnifier.get(OrePrefix.wireGtSingle, Materials.YttriumBariumCuprate, 3), OreDictUnifier.get(OrePrefix.plate, Materials.TungstenSteel, 3), MetaItems.ELECTRIC_PUMP_LV.getStackForm()}, new FluidStack[]{Materials.Nitrogen.getFluid(2000)});
-        removeRecipesByInputs(RecipeMaps.ASSEMBLER_RECIPES, new ItemStack[]{OreDictUnifier.get(OrePrefix.wireGtSingle, Materials.NiobiumTitanium, 3), OreDictUnifier.get(OrePrefix.plate, Materials.TungstenSteel, 3), MetaItems.ELECTRIC_PUMP_LV.getStackForm()}, new FluidStack[]{Materials.Nitrogen.getFluid(2000)});
-        removeRecipesByInputs(RecipeMaps.ASSEMBLER_RECIPES, new ItemStack[]{OreDictUnifier.get(OrePrefix.wireGtSingle, Materials.VanadiumGallium, 3), OreDictUnifier.get(OrePrefix.plate, Materials.TungstenSteel, 3), MetaItems.ELECTRIC_PUMP_LV.getStackForm()}, new FluidStack[]{Materials.Nitrogen.getFluid(2000)});
-
         //Remove Simple Coil Recipes
         removeRecipesByInputs(RecipeMaps.ASSEMBLER_RECIPES, OreDictUnifier.get(OrePrefix.wireGtDouble, Materials.Cupronickel, 8), IntCircuitIngredient.getIntegratedCircuit(8));
         removeRecipesByInputs(RecipeMaps.ASSEMBLER_RECIPES, OreDictUnifier.get(OrePrefix.wireGtDouble, Materials.Kanthal, 8), IntCircuitIngredient.getIntegratedCircuit(8));
